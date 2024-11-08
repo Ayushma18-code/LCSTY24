@@ -1,0 +1,67 @@
+/* training.css */
+
+/* General table styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders */
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Style the caption */
+caption {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Header row styles */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Table data cell styles */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Hover effect for rows */
+tbody tr:hover {
+    background-color: #ddd;
+}
+
+/* Additional responsive styles for mobile and tablet viewports */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    td, th {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        font-size: 12px;
+    }
+
+    td, th {
+        padding: 6px;
+    }
+}

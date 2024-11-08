@@ -1,0 +1,72 @@
+/* contact.css */
+
+/* General form styles */
+.container form {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Fieldset and legend styles */
+fieldset {
+    border: 1px solid #005f73;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+    color: #005f73;
+}
+
+/* Label and input styles */
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #023047;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Checkbox and radio styles */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Button styles */
+button[type="submit"],
+button[type="reset"] {
+    background-color: #005f73;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover,
+button[type="reset"]:hover {
+    background-color: #0a9396;
+}
+
+/* Table and form centering */
+.container {
+    text-align: left;
+    margin: auto;
+}

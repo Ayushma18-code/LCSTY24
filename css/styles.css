@@ -1,0 +1,120 @@
+/* General styles for all pages */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light grey background for a soft touch */
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(45deg, #3b5998, #8b9dc3); /* Modern gradient effect */
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 60px; /* Adjust logo size if needed */
+}
+
+/* Navigation styling */
+nav {
+    background-color: #87ceeb; /* Sky blue color for the navbar */
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    color: #333; /* Dark color for text */
+    text-decoration: none;
+    padding: 12px 20px;
+    display: inline-block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #69b3e7; /* Lighter sky blue for hover effect */
+    color: #333; /* Keep text color consistent */
+}
+
+/* Main content styling */
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Headings */
+h2, h3 {
+    color: #3b5998; /* Dark blue for main headings */
+    margin-bottom: 15px;
+}
+
+/* Section, Article, and Aside styling */
+article, aside, section {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+figure {
+    text-align: center;
+    margin: 10px 0;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Footer styling */
+footer {
+    background-color: #87ceeb; /* Sky blue color for the footer */
+    color: #333; /* Dark color for text */
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+footer a {
+    color: #333; /* Dark color for links */
+    text-decoration: none;
+}
+
+/* Responsive Design for Index Page */
+@media (max-width: 768px) { /* Tablet view */
+    main {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) { /* Mobile view */
+    header, footer {
+        padding: 10px;
+    }
+
+    nav a {
+        display: block;
+        padding: 8px;
+        text-align: center;
+    }
+
+    main {
+        margin: 15px;
+        padding: 15px;
+    }
+}

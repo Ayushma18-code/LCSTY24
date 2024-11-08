@@ -1,0 +1,146 @@
+/* team.css */
+
+/* General styles for the team page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the container element */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Header styles */
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Navigation styles */
+nav a {
+    text-decoration: none;
+    color: #005f73;
+    margin: 0 15px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #0a9396;
+    color: white;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #edf6f9;
+    border-radius: 8px;
+}
+
+/* Article styles */
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #e0fbfc;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    margin-top: 0;
+    color: #005f73;
+}
+
+/* Aside styles */
+aside {
+    background-color: #cae9ff;
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Figure and caption styles */
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+figure img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #005f73;
+    color: white;
+    padding: 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+footer a {
+    color: #e0fbfc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #0a9396;
+}
+
+/* Responsive styles for smaller devices */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    article, aside, section {
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    header, footer {
+        padding: 15px;
+    }
+}
